@@ -161,15 +161,11 @@ git clone https://github.com/LucPinheiro/app-asistencia-odoo.git
 cd app-asistencia-odoo
 ```
 
----
-
 ### 2️⃣ Instalar dependencias
 
 ```bash
 npm install
 ```
-
----
 
 ### 3️⃣ Configurar conexión con Odoo
 
@@ -187,8 +183,6 @@ export const CONFIG = {
   DB: 'nombre_de_base_de_datos',
 };
 ```
-
----
 
 ### 4️⃣ Configurar permisos de ubicación
 
@@ -210,8 +204,6 @@ Ejemplo en `app.json`:
   }
 }
 ```
-
----
 
 ### 5️⃣ Ejecutar la aplicación
 
@@ -326,13 +318,16 @@ El proyecto está organizado siguiendo una arquitectura modular:
 
 ## 📸 Capturas de pantalla
 
-> Puedes agregar aquí imágenes del proyecto.
+> Próximamente se agregarán capturas de pantalla de la aplicación móvil.
 
-```md
-![Login](./assets/login.png)
-![Check In](./assets/checkin.png)
-![Check Out](./assets/checkout.png)
-```
+### Pantallas planificadas
+
+- Login de usuario
+- Dashboard principal
+- Registro de asistencia
+- Validación GPS
+- Integración con Odoo
+- Modelo relacional del sistema
 
 ---
 
