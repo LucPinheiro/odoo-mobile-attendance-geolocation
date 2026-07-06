@@ -1,0 +1,87 @@
+{
+  "expo": {
+    "name": "asistencia-app",
+    "slug": "asistencia-app",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "scheme": "assistencia",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+
+    "ios": {
+      "supportsTablet": true,
+      "runtimeVersion": {
+        "policy": "appVersion"
+      },
+      "bundleIdentifier": "com.adry01.asistenciaapp",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/splash-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.adry01.asistenciaapp",
+      "runtimeVersion": "1.0.0",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
+    },
+
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/splash-icon.png"
+    },
+
+    "experiments": {
+      "typedRoutes": true
+    },
+
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "bc42b3bf-8134-4dfe-aa58-ce399a6d7c3a"
+      }
+    },
+
+    "icon": "./assets/images/splash-icon.png",
+
+    "plugins": [
+      "expo-router",
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "Esta aplicación necesita acceso a la ubicación para verificar que estés en el lugar de trabajo al registrar tu asistencia.",
+          "locationAlwaysPermission": "Esta aplicación necesita acceso a la ubicación para verificar que estés en el lugar de trabajo al registrar tu asistencia.",
+          "locationWhenInUsePermission": "Esta aplicación necesita acceso a la ubicación para verificar que estés en el lugar de trabajo al registrar tu asistencia."
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#ffffff",
+          "image": "./assets/images/splash-icon.png",
+          "dark": {
+            "image": "./assets/images/splash-icon.png",
+            "backgroundColor": "#000000"
+          },
+          "imageWidth": 200
+        }
+      ]
+    ],
+
+    "updates": {
+      "url": "https://u.expo.dev/bc42b3bf-8134-4dfe-aa58-ce399a6d7c3a"
+    },
+
+    "owner": "luciapineiro"
+  }
+}
