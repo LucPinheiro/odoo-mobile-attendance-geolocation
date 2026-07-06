@@ -1,4 +1,4 @@
-# 📱 Odoo ERP Mobile Attendance Integration Platform
+# 📱 Odoo ERP Mobile Attendance & Geolocation Platform
 
 <p align="center">
 
