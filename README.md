@@ -1,51 +1,145 @@
-# Odoo ERP Mobile Attendance Integration Platform
-# Welcome to your Expo app 👋
+# 📱 Odoo ERP Mobile Attendance Integration Platform
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+<p align="center">
 
-## Get started
+![](https://img.shields.io/badge/Language-English-blue?style=for-the-badge)
+![](https://img.shields.io/badge/Idioma-Español-red?style=for-the-badge)
+![](https://img.shields.io/badge/Idioma-Português-green?style=for-the-badge)
 
-1. Install dependencies
+</p>
 
-   ```bash
-   npm install
-   ```
+<p align="center">
 
-2. Start the app
+![](https://img.shields.io/badge/React_Native-Mobile-61DAFB?style=for-the-badge&logo=react)
+![](https://img.shields.io/badge/Expo-SDK-000020?style=for-the-badge&logo=expo)
+![](https://img.shields.io/badge/Electron-Desktop-47848F?style=for-the-badge&logo=electron)
+![](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![](https://img.shields.io/badge/Odoo-ERP-714B67?style=for-the-badge)
+![](https://img.shields.io/badge/JSON--RPC-API-orange?style=for-the-badge)
+![](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white)
 
-   ```bash
-   npx expo start
-   ```
+</p>
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# 📖 Overview
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Odoo ERP Mobile Attendance Integration Platform** is a cross-platform mobile and desktop application that connects directly with **Odoo ERP** through the **JSON-RPC API**.
 
-## Get a fresh project
+The application enables employees to securely authenticate against Odoo, register attendance, manage daily activities, and access ERP information in real time from **Android**, **iOS**, and **Desktop (Electron)**.
 
-When you're ready, run:
+Designed as a modern companion application for Odoo ERP, it demonstrates enterprise mobile integration using React Native and Expo.
 
-```bash
-npm run reset-project
+---
+
+# 🚀 Features
+
+- Secure authentication against Odoo ERP
+- Attendance Check In / Check Out
+- Employee activity management
+- Real-time synchronization with Odoo
+- JSON-RPC integration
+- Cross-platform support
+- Android support
+- iOS support
+- Desktop application with Electron
+- Responsive user interface
+- Secure session management
+
+---
+
+# 🏗 Architecture
+
+```
+Mobile App (React Native)
+        │
+        │ JSON-RPC
+        ▼
+   Odoo ERP Server
+        │
+        ▼
+ PostgreSQL Database
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+# 🛠 Tech Stack
 
-To learn more about developing your project with Expo, look at the following resources:
+- React Native
+- Expo
+- Electron
+- TypeScript
+- JavaScript (ES6+)
+- Odoo Community / Enterprise
+- JSON-RPC API
+- Node.js
+- React Navigation
+- Android
+- iOS
+- Git
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+---
 
-## Join the community
+# 📱 Platforms
 
-Join our community of developers creating universal apps.
+- Android
+- iOS
+- Windows
+- macOS
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+# ⚙ Installation
+
+```bash
+npm install
+```
+
+Run Expo
+
+```bash
+npx expo start
+```
+
+Desktop
+
+```bash
+npm run electron
+```
+
+---
+
+# 📂 Project Structure
+
+```
+app/
+components/
+hooks/
+lib/
+utils/
+assets/
+```
+
+---
+
+# 🎯 Purpose
+
+This project demonstrates how external mobile applications can integrate with Odoo ERP using its JSON-RPC API to provide enterprise mobility solutions.
+
+The application follows a modular architecture designed to simplify future integrations with additional Odoo modules.
+
+---
+
+# 👩‍💻 Author
+
+**Luciana Pinheiro**
+
+Senior Odoo Developer • Odoo Functional Consultant • Python Developer
+
+Portfolio
+
+https://lucpinheiro.github.io
+
+GitHub
+
+https://github.com/LucPinheiro
